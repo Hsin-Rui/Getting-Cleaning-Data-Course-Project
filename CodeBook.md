@@ -23,6 +23,6 @@ Write out the tidt dataset to `averagedata.txt`.
 
 
 # Data Introduction
-- The data that will be used for this project are `x_train.txt`, `x_test.txt`, `y_train.txt`, `y_test.txt`, `subject_train.txt` and `subject_test.txt`, which can all be found inside the downloaded dataset **URI HAR Dataset**.
+- The data that will be used for this project are `x_train.txt`, `x_test.txt`, `y_train.txt`, `y_test.txt`, `subject_train.txt` and `subject_test.txt`, which can all be found inside the downloaded dataset, namely **URI HAR Dataset**.
 - `features.txt` contains the correct feature name, which corresponds to each column of `x_train.txt` and `x_test.txt`. Further explanation of the feature is in the `features_info.txt`. 
 - `activity_labels.txt` contains the desciptive names for each activity label, which corresponds to each number in the `y_train.txt` and `y_test.txt`.
