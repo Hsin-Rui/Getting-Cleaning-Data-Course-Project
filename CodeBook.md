@@ -30,8 +30,9 @@ Write out the tidy dataset to `averagedata.txt`.
 
 # Final Tidy Data Description
 The final tidy data is produced inside the `run_analysis.R`, which I simply named it `data3` and `data4`. 
-1. `data3` is the tidy data produced after going through the first 4 steps of the course project. It contains 10299 observations and 68 variables. 
+
+- `data3` is the tidy data produced after going through the first 4 steps of the course project. It contains 10299 observations and 68 variables.
 - The first column refers to each subject that did the experiment. 
 - Column 2~67 are the feature variables(mean and std of the whole feature variables).
 - The last column is refers to the activity that the subjects were doing, including WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
-2. `data4` is the tidy data produced after going through all 5 steps of the course project. It contains 180 observations and 68 variables. Where the first column is the subject id, second column is the activity and the rest are the average of each feature variables. 
+- `data4` is the tidy data produced after going through all 5 steps of the course project. It contains 180 observations and 68 variables. Where the first column is the subject id, second column is the activity and the rest are the average of each feature variables. 
