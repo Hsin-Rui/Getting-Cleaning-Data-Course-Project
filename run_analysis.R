@@ -48,7 +48,7 @@ setnames( data2, c(1:563), c( "subject", featurenames$V2, "activity" ) )
 # Add 1 to it, cuz the first column in data2 is subject not feature
 # Don't just use mean when doing matching, this will include meanFreq()
 # Each backslash must be expressed as \\
-measurements <- grep( "std|mean\\()", featurenames$V2 ) + 1
+measurements <- grep( "std|mean\\(\\)", featurenames$V2 ) + 1
 
 # data3 : contains only the mean and standard deviation for feature column 
 data3 <- data2[, c( 1, measurements, 563 ) ]
